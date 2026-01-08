@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Q1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         int evenCount = 0;
         int oddCount = 0;
