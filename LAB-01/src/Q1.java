@@ -5,7 +5,7 @@ public class Q1 {
 
         Scanner sc = new Scanner(System.in);
 
-        // Taking input from user
+        
         System.out.print("Enter Name: ");
         String name = sc.nextLine();
 
@@ -18,7 +18,7 @@ public class Q1 {
         System.out.print("Enter Branch: ");
         String branch = sc.nextLine();
 
-        // Displaying output
+        
         System.out.println("Display Name: " + name);
         System.out.println("Display Roll No: " + roll);
         System.out.println("Display Section: " + section);
