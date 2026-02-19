@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-// Interface definition
+
 interface Salary {
     void earnings();
     void deductions();
     void bonus();
 }
 
-// Abstract class implementing interface partially
+
 abstract class Manager implements Salary {
     double basic;
 
@@ -15,7 +15,7 @@ abstract class Manager implements Salary {
         this.basic = basic;
     }
 
-    // earnings = basic + DA + HRA
+    
     public void earnings() {
         double da = 0.80 * basic;
         double hra = 0.15 * basic;
@@ -23,7 +23,7 @@ abstract class Manager implements Salary {
         System.out.println("Earnings - " + (int) earnings);
     }
 
-    // deductions = PF
+    
     public void deductions() {
         double pf = 0.12 * basic;
         System.out.println("Deduction - " + (int) pf);

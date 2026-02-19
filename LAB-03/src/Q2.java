@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Base class
+
 class Plate {
     double length, width;
 
@@ -13,7 +13,7 @@ class Plate {
     }
 }
 
-// Derived class
+
 class Box extends Plate {
     double height;
 
@@ -25,7 +25,7 @@ class Box extends Plate {
     }
 }
 
-// Derived class
+
 class WoodBox extends Box {
     double thick;
 
@@ -54,7 +54,7 @@ public class Q2 {
         System.out.print("Enter thickness: ");
         double t = sc.nextDouble();
 
-        // Creating object of WoodBox
+        
         WoodBox wb = new WoodBox(l, w, h, t);
 
 

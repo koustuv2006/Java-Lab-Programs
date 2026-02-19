@@ -10,7 +10,7 @@ class Student {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Roll Number: ");
         roll = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
         System.out.print("Enter Name: ");
         name = sc.nextLine();
         System.out.print("Enter CGPA: ");
