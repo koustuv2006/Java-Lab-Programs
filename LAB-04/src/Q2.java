@@ -12,7 +12,7 @@ class WashingMachine implements Motor {
      System.out.println("Washing machine motor is consuming power");
  }
  void displayCapacity(){
-        System.out.println("Capacity of the motor is:" + capacity);
+     System.out.println("Capacity of the motor is:" + capacity);
     }
 }
 public class Q2{
